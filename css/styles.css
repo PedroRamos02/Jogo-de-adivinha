@@ -1,0 +1,59 @@
+:root {
+    --amarelo: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    --fonte: 'Source Code Pro', monospace;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    background: var(--amarelo);
+    font-family: var(--fonte);
+    
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40vh;
+    height: 20%;
+    justify-content: space-between;
+}
+
+.nome__input, .input__numero {
+    margin-bottom: 1.3em;
+}
+
+.nome__input {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.texto {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.input__numero {
+    border-radius: 30px;
+    padding: 0.4em;
+    text-decoration: none;
+    border-style: none;
+}
+
+.botao {
+    border-style: none;
+    border-radius: 90px;
+    padding: 1em;
+    background-color: rgb(77, 77, 231);
+    color: white;   
+}
+
+.resultado {
+    font-size: 24px;
+    font-weight: 700;
+    color: white
+}
